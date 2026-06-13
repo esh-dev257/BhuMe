@@ -1,4 +1,4 @@
-# BhuMe Boundary Correction — Take-Home Submission
+# BhuMe Boundary Correction - Take-Home Submission
 
 ## Method
 
@@ -10,7 +10,7 @@ Official plot boundaries are shifted off the real fields due to imperfect georef
 
 ### Algorithm (`solve.py`)
 
-1. **Global median shift** — compute the median centroid displacement from the handful of example truths. This single shift already improves most plots.
+1. **Global median shift** - compute the median centroid displacement from the handful of example truths. This single shift already improves most plots.
 
 2. **Per-plot ICP from global-shift position** — for each plot:
    - Apply the global shift to get a "primed" outline
