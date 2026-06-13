@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 *.egg-info/
+*.tif
+*.zip
+starter-kit/
+data/*/predictions_baseline.geojson
+starter-kit/bhume-starter-kit/patch_example.png
